@@ -1,0 +1,127 @@
+:global {
+  .archives_oilInfo {
+    .ant-form-inline .ant-form-item {
+      display: flex;
+    }
+  }
+}
+.customPrint {
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 3px;
+ 
+}
+
+.reactToPrint {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  padding: 0 20px;
+}
+.printTable {
+  background-color: #ffffff;
+  width: 680px;
+  height: 380px;
+  margin: 20px 10px;
+  display: flex;
+
+  .codeBody {
+    flex: 1;
+    border: 1px black solid;
+    font-size: 16px;
+    // padding: 5px;
+    // text-align:center ;
+      line-height: 1.1;
+    .wrapflex{
+       display: flex;
+       justify-content: left; 
+       padding: 0 5px;
+       .left{
+           width: 50%;
+       }
+       .right{
+           flex: 1;
+       }
+
+    }
+    .title {
+      font-size: 17px;
+      font-weight: bolder;
+    }
+    .flexCheckBox{
+      display:flex;
+      margin-left:10px;
+      .checkBox{
+        width:22px;
+        height:22px;
+        border:1px solid #000000;
+        margin-right:3px;
+      }
+    }
+  }
+
+
+  .barcode {
+    border: 1px black solid;
+    width:120px ;
+    .svg{
+      transform: rotate(90deg);
+    transform-origin: left top;  
+    margin-left: 113px;
+    top: 2px;
+    }
+  }
+}
+
+.customPartsOfferInfo {
+  :global {
+    .antd-pro-components-antd-form-index-tableListForm .ant-form-item > .ant-form-item-label {
+      width: auto;
+    }
+    .ant-form-item-label > label::after {
+      content: '';
+      margin: 0;
+    }
+    .antd-pro-components-antd-form-index-tableListForm .ant-form-item {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// .customPartsOfferInfo {
+//   :global {
+//     .antd-pro-components-antd-form-index-tableListForm .ant-form-item > .ant-form-item-label {
+//       width: auto;
+//     }
+//     .ant-form-item-label > label::after {
+//       content: '';
+//       margin: 0;
+//     }
+//     .antd-pro-components-antd-form-index-tableListForm .ant-form-item {
+//       margin-bottom: 0;
+//     }
+//     .ant-upload.ant-upload-select-picture-card {
+//       width: 40px;
+//       height: 40px;
+//     }
+//     .antd-pro-components-ad-upload-index-upload .antd-pro-components-ad-upload-index-upload-file {
+//       width: 40px;
+//       height: 40px;
+//     }
+//     .antd-pro-components-ad-upload-index-upload
+//       .antd-pro-components-ad-upload-index-upload-file-close {
+//       position: absolute;
+//       top: -4px;
+//       right: 0;
+//       width: 10px;
+//       height: 10px;
+//       text-align: center;
+//       line-height: 10px;
+//     }
+//     .antd-pro-components-ad-upload-index-upload
+//       .antd-pro-components-ad-upload-index-upload-file-name {
+//       margin-top: 0;
+//     }
+//   }
+// }
+
